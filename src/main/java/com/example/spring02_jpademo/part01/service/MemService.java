@@ -14,4 +14,6 @@ public interface MemService {
 	public List<MemDTO> getMemByAgeIsNotNull();
 	//public int insertMemByNative(String name, int age, String loc);
 	public int insertMemByNative(MemDTO memDTO);
+	public int updateMem(MemDTO memDTO);
+	public int deleteMem(int num);
 }
